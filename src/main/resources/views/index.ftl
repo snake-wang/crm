@@ -15,9 +15,11 @@
     <script type="text/javascript" src="${ctx}/static/jquery-easyui-1.3.3/jquery.min.js"></script>
     <script type="text/javascript" src="${ctx}/static/js/jquery.cookie.js"></script>
     <script type="text/javascript" src="${ctx}/static/js/common.js"></script>
+
     <script type="text/javascript">
         var ctx = "${ctx}";
     </script>
+
     <script type="text/javascript" src="${ctx}/static/js/index.js"></script>
 
     <!-- BEGIN BODY -->

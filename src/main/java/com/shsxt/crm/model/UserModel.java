@@ -1,5 +1,6 @@
 package com.shsxt.crm.model;
 
+//构造一个用户模型
 public class UserModel {
     private String userIdStr;
     private String userName;

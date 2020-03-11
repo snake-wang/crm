@@ -2,11 +2,13 @@ package com.shsxt.base;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
+
+import javax.annotation.Resource;
 import java.util.List;
 
 public abstract class BaseService<T,ID> {
 
-    @Autowired
+    @Resource
     private BaseMapper<T,ID> baseMapper;
 
     /**
